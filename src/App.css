@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    font-family: "Afacad", sans-serif;
+}
+
+#root{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%; 
+}
+
+.card:hover{
+    -webkit-box-shadow: 0px 0px 21px 7px #52aca5;
+    -moz-box-shadow: 0px 0px 21px 7px #52aca5;
+    box-shadow: 0px 0px 21px 7px #52aca5;
+    transform: scale(1.1);
+    background-color: rgb(59, 59, 59);
+}
+.card{
+    -webkit-box-shadow: 0px 0px 21px 7px #52aca5;
+    -moz-box-shadow: 0px 0px 21px 7px #52aca5;
+    box-shadow: 0px 0px 21px 7px #52aca5;
+}
+
+.cardButton{
+    -webkit-box-shadow: 0px 0px 21px 7px #8FC839;
+    -moz-box-shadow: 0px 0px 21px 7px #8FC839;
+    box-shadow: 0px 0px 21px 7px #8FC839;
+}
+
+.cardDetail{
+    -webkit-box-shadow: 0px 0px 21px 7px #52aca5;
+    -moz-box-shadow: 0px 0px 21px 7px #52aca5;
+    box-shadow: 0px 0px 21px 7px #52aca5;
+}
+
+.cart{
+    -webkit-box-shadow: 0px 0px 21px 7px #9AA7B8;
+    -moz-box-shadow: 0px 0px 21px 7px #9AA7B8;
+    box-shadow: 0px 0px 21px 7px #9AA7B8;
+}
+.finishShoppingButton {
+    -webkit-box-shadow: 0px 0px 21px 7px #F27A1A;
+    -moz-box-shadow: 0px 0px 21px 7px #F27A1A;
+    box-shadow: 0px 0px 21px 7px #F27A1A;
+}
